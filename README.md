@@ -10,15 +10,14 @@
 ## **Incident Report for PCAP Analysis**
 
 ### **1. Executive Summary**
-- On Wednesday, 2024-09-04 at 17:35 UTC, suspicious network activity was detected on machine DESKTOP-RNVO9AT, used by Andrew Fletcher. The system exhibited abnormal ARP broadcast requests and established connections to known malicious IP addresses, suggesting a malware infection. Further analysis revealed communication with a Command and Control (C2) server associated with the Win32/Koi Stealer trojan. A total of 48 alerts were triggered due to this malicious activity.
+- On Wednesday, `2024-09-04 at 17:35 UTC`, suspicious network activity was detected on machine `DESKTOP-RNVO9AT`, used by `Andrew Fletcher`. The system exhibited abnormal ARP broadcast requests and established connections to known malicious IP addresses, suggesting a malware infection. Further analysis revealed communication with a Command and Control (C2) server associated with the `Win32/Koi Stealer trojan`. A total of 48 alerts were triggered due to this malicious activity.
   
 ![Screenshot 2025-01-09 at 4 06 40 PM](https://github.com/user-attachments/assets/8f429db3-348b-48bf-914e-b8c746998525)
 ![Screenshot 2025-01-09 at 5 17 39 PM](https://github.com/user-attachments/assets/fdc6b993-d5da-40ad-9898-f98f699ed086)
 <img width="1297" alt="Screenshot 2025-01-07 at 7 25 26 PM" src="https://github.com/user-attachments/assets/c1c787a4-2d26-49f5-90e6-4364ffd1c5c2" />
 <img width="680" alt="Screenshot 2025-01-07 at 7 26 14 PM" src="https://github.com/user-attachments/assets/39f32773-24f6-4396-ab0d-b3713bff8c61" />
 
-
-- **Impact Summary**: The infection could lead to data exfiltration, system compromise, and network disruption.
+- #### **Impact Summary**: The infection could lead to data exfiltration, system compromise, and network disruption.
 ---
 
 ### **2. Victim Details**
@@ -58,7 +57,7 @@
 
 ---
 
-### **5. Key Findings
+### **5. Key Findings**
 - **ARP Broadcasts:** Unusual ARP requests originating from the user's machine.  
 - **Malicious Communication:** Connection to **`79[.]124[.]78[.]197`** over port 80, known for malware C2 activity.  
 - **Volume of Alerts:** 48 C2 check-in alerts were detected.  
@@ -71,6 +70,7 @@
 <img width="680" alt="Screenshot 2025-01-07 at 7 26 14 PM" src="https://github.com/user-attachments/assets/b74ab1f9-4c29-4d02-9c2e-eb89aa426692" />
 <img width="1564" alt="Screenshot 2025-01-07 at 7 57 30 PM" src="https://github.com/user-attachments/assets/7fff989d-c62c-4f2b-a9fe-f0be76e32b18" />
 <img width="1564" alt="Screenshot 2025-01-07 at 7 57 40 PM" src="https://github.com/user-attachments/assets/a9fe3da6-2bbf-422a-8d2e-31985969161f" />
+
 - **Related Domains/IPs**:
 - Frequent attempts to communicate with the external IP **`79.124.78.197`**.   
 - Access to **`www[.]bellantonicioccolato[.]it`**, potentially linked to malware distribution.  
