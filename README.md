@@ -102,8 +102,7 @@
 ---
 
 ### **7. References**
-- [Wireshark Display Filters Documentation](https://www.wireshark.org/docs/dfref/)  
-- [Elastic SIEM Documentation](https://www.elastic.co/guide/en/security/current/index.html)  
+- [Wireshark Display Filters Documentation](https://www.wireshark.org/docs/dfref/)   
 - [Malware Traffic Analysis Exercise](https://www.malware-traffic-analysis.net/2024/09/04/index.html)
 
 ---
